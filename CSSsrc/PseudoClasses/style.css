@@ -1,0 +1,28 @@
+a:link {
+  color: lightblue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: tomato;
+}
+a:active {
+  color: yellow;
+}
+button:hover {
+  background-color: yellow;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+li:nth-child(1) {
+  background-color: yellow;
+}
+li:nth-child(even) {
+  background-color: purple;
+}
+li:nth-child(3n) {
+  background-color: green;
+}
